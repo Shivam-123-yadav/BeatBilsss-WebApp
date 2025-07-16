@@ -13,3 +13,4 @@ requests==2.32.3
 
 # Optional: Environment variables
 python-dotenv==1.0.1
+youtube-search==2.1.2
