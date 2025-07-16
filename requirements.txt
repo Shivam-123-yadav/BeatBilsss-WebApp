@@ -20,12 +20,11 @@ debugpy==1.8.13
 decorator==5.2.1
 defusedxml==0.7.1
 distlib==0.3.9
-# ⚠️ Fix typo in djando
 django==5.1.7
 executing==2.2.0
 fastjsonschema==2.21.1
-ffmpeg==1.4
 filelock==3.18.0
+ffmpeg==1.4
 Flask==3.1.0
 fqdn==1.5.1
 h11==0.14.0
@@ -80,9 +79,8 @@ pygame==2.6.1
 Pygments==2.19.1
 python-dateutil==2.9.0.post0
 python-json-logger==3.3.0
-# ✅ Platform-specific install for Windows only
-pywin32; platform_system == "Windows"
-pywinpty==2.0.15
+# pywin32; platform_system == "Windows"  <-- Not used on Render
+# pywinpty==2.0.15  <-- Only for Windows terminals
 PyYAML==6.0.2
 pyzmq==26.3.0
 redis==5.2.1
