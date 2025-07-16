@@ -20,8 +20,8 @@ debugpy==1.8.13
 decorator==5.2.1
 defusedxml==0.7.1
 distlib==0.3.9
-djando==0.2
-Django==5.1.7
+# ⚠️ Fix typo in djando
+django==5.1.7
 executing==2.2.0
 fastjsonschema==2.21.1
 ffmpeg==1.4
@@ -80,7 +80,8 @@ pygame==2.6.1
 Pygments==2.19.1
 python-dateutil==2.9.0.post0
 python-json-logger==3.3.0
-pywin32==310
+# ✅ Platform-specific install for Windows only
+pywin32; platform_system == "Windows"
 pywinpty==2.0.15
 PyYAML==6.0.2
 pyzmq==26.3.0
